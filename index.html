@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Calculator </title>
+    <h1 id="title">Calculator</h1>
+</head>
+
+<body>
+    <p id="Notice"> Every trignometry function is in radians and not degrees. Order of operations is not included. </p>
+    <span id="Text">
+        <p id="done"> </p>
+        <p id="equal"> </p>
+        </span>
+
+    <div id="main">
+       
+
+
+<input type="number" placeholder="Type your number here" id="inputer">
+
+<span id="basic">
+<button id="Plus" class="operator" onclick="Plus()"> + </button>
+<button id="Minus" class="operator" onclick="Minus()"> - </button>
+<button id="Times" class="operator" onclick="Times()"> * </button>
+<button id="Power" class="operator" onclick="Power()"> ^ </button>
+</span>
+<br>
+<br>
+<span id="next">
+<button id="Divide" class="operator" onclick = "Divide()"> / </button>
+<button id="Mod" class="operator" onclick="Mod()"> % </button>
+<button id="Increment" class="operator" onclick="Increment()"> ++ </button>
+<button id="Decrement" class="operator" onclick="Decrement()"> -- </button>
+</span>
+<br> 
+<br>
+<span id="advanced">
+
+    <button id="Sqrt" class="operator" onclick="Sqrt()"> Sqrt </button>
+<button id="Cos" class="operator" onclick="Cos()"> Cos </button>
+<button id="Sin" class="operator" onclick="Sin()"> Sin </button>
+<button id="Tan" class="operator" onclick="Tan()"> Tan </button>
+</span>
+<br>
+<br>
+<button class="Finish" onclick="Equal()"> = </button>
+<button class="Finish" onclick="Clear()"> Clear </button>
+</div>
+</body>
+</html>

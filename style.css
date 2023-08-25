@@ -1,0 +1,36 @@
+body{
+background-color: blue;
+text-align: center;
+}
+
+#main{
+background-color: green;
+border-style: dashed;
+border-color: red;
+height: 350px;
+width: 800px;
+text-align: center;
+margin-left: 320px;
+}
+#inputer{
+
+    width:790px;
+height: 40px;
+}
+
+.operator{
+font-size: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+}
+.Finish{
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+    background-color: yellow;
+}
+
+#Notice{
+color: red;
+}
